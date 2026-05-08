@@ -1,5 +1,3 @@
-Hooks.once("init", async function () {});
-
 const DT = {
   NONE: 1,
   REGULAR: 2,
