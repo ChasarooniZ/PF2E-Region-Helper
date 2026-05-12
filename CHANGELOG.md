@@ -1,3 +1,7 @@
+## 0.2.0
+
+- Fixed a bug causing the difficult terrain to not be set (🐛 @Joshmvii7)
+
 ## 0.1.0
 
 - Adds difficult terrain to the following spells

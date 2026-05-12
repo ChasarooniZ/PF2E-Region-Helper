@@ -6,7 +6,7 @@ const DT = {
 
 Hooks.once("ready", async function () {
   if (game.user.isGM) {
-    Hooks.on("preCreateRegion", async (regionDocument) => {
+    Hooks.on("createRegion", async (regionDocument) => {
       const behaviors = [];
       switch (regionDocument?.flags?.pf2e?.origin?.slug) {
         // Regular DT, Ground Only
