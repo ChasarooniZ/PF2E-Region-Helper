@@ -2,6 +2,10 @@
 
 Adds some behaviors to certain regions generated, specifically as follows
 
+### Spells w/ Darkness
+
+- Darkness
+
 ### Spells w/ Difficult Terrain Added
 
 - 500 Toads

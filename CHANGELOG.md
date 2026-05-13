@@ -1,3 +1,7 @@
+## 0.3.0
+
+- Added support for spell `Darkness` causing darkness
+
 ## 0.2.0
 
 - Fixed a bug causing the difficult terrain to not be set (🐛 @Joshmvii7)

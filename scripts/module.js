@@ -9,6 +9,11 @@ Hooks.once("ready", async function () {
     Hooks.on("createRegion", async (regionDocument) => {
       const behaviors = [];
       switch (regionDocument?.flags?.pf2e?.origin?.slug) {
+        //Darkness
+        case "darkness":
+          behaviors.push(darknessEffect);
+          break;
+
         // Regular DT, Ground Only
         case "500-toads":
         case "antlion-trap":
@@ -155,3 +160,13 @@ function getDifficultTerrain({
     disabled: false,
   };
 }
+
+const darknessEffect = {
+  name: "Adjust Darkness Level",
+  type: "adjustDarknessLevel",
+  system: {
+    mode: 2,
+    modifier: 1,
+  },
+  disabled: false,
+};
